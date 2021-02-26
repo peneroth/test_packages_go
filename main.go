@@ -30,9 +30,9 @@ func main() {
 	v := petersfunctions.Vertex{X: 1, Y: 2}
 	// Call with structure => changes are only available in local function
 	petersfunctions.AddOneToVertex(v)
-	fmt.Println("X = ", v.X, "Y = ", v.Y)
+	fmt.Println("From main function: X = ", v.X, "Y = ", v.Y)
 	// Call with pointer to structure => changes are maintained in caller function
 	petersfunctions.AddOneToVertexp(&v)
-	fmt.Println("X = ", v.X, "Y = ", v.Y)
+	fmt.Println("From main function: X = ", v.X, "Y = ", v.Y)
 
 }

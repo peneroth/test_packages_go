@@ -1,5 +1,7 @@
 package main
 
+// Functions in package main can be placed in several files, belonging to the same package
+
 import "fmt"
 
 func aMainFunction() {
