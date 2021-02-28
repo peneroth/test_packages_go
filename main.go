@@ -6,6 +6,7 @@ import (
 	petersfunctions "github.com/peneroth/test_packages_go/peters_functions"
 )
 
+// Test globalVariable, accessable within package main
 var globalVariable int = 1
 
 func main() {
